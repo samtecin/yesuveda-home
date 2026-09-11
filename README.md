@@ -13,7 +13,7 @@ A modern, responsive single-page website showcasing YesuVeda's comprehensive wel
 - 📱 Phone: +91 9876543210
 - 🌐 Website: www.yesuveda.com
 - 📍 Address: Wellness Campus, Green Valley, Sustainability District, Eco City - 123456
-- 💬 WhatsApp: [Join our community](https://chat.whatsapp.com/KDZMvlY2Yv92uBVZa5oVKY?mode=ems_copy_c)
+- 💬 WhatsApp: [Join our community](https://chat.whatsapp.com/BmPIcOshwMwKBRCGYrmygF?s=cl&p=a&mlu=0)
 
 ## 🎯 Services Overview
 

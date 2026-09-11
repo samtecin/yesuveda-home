@@ -7,7 +7,7 @@ const CONFIG = {
     scrollOffset: 80,
     debounceDelay: 100,
     countUpDuration: 2000,
-    whatsappGroup: 'https://chat.whatsapp.com/KDZMvlY2Yv92uBVZa5oVKY?mode=ems_copy_c'
+    whatsappGroup: 'https://chat.whatsapp.com/BmPIcOshwMwKBRCGYrmygF?s=cl&p=a&mlu=0'
 };
 
 // State Management

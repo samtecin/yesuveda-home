@@ -538,7 +538,7 @@ body {
 }
 
 .hero-logo {
-    margin-bottom: var(--space-6);
+    margin-bottom: var(--space-4);
 }
 
 .hero-logo-img {
@@ -549,6 +549,61 @@ body {
     animation: logoFloat 3s ease-in-out infinite;
 }
 
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: 6px 16px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius-full);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-semibold);
+    color: white;
+    margin-bottom: var(--space-4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all var(--transition-base);
+}
+
+.hero-badge:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-badge .badge-dot {
+    width: 8px;
+    height: 8px;
+    background: #4ade80;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 8px #4ade80;
+}
+
+.hero-badge .badge-brand {
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.5px;
+}
+
+.hero-badge .badge-separator {
+    opacity: 0.6;
+}
+
+.hero-badge .badge-url {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    opacity: 0.95;
+    transition: opacity var(--transition-fast);
+}
+
+.hero-badge .badge-url:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
 .hero-title {
     margin-bottom: var(--space-6);
 }
@@ -557,17 +612,18 @@ body {
     display: block;
     font-size: var(--text-6xl);
     font-weight: var(--font-weight-black);
-    line-height: 1;
+    line-height: 1.1;
     margin-bottom: var(--space-2);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .title-tagline {
     display: block;
-    font-size: var(--text-2xl);
-    font-weight: var(--font-weight-medium);
-    opacity: 0.9;
-    line-height: 1.2;
+    font-size: var(--text-6xl);
+    font-weight: var(--font-weight-bold);
+    line-height: 1.15;
+    opacity: 0.95;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .hero-description {
@@ -1820,7 +1876,8 @@ body {
 
 /* Laptop (992px to 1199px) */
 @media (max-width: 1199px) {
-    .title-main {
+    .title-main,
+    .title-tagline {
         font-size: var(--text-5xl);
     }
     
@@ -1888,12 +1945,9 @@ body {
         gap: var(--space-12);
     }
 
-    .title-main {
-        font-size: var(--text-4xl);
-    }
-
+    .title-main,
     .title-tagline {
-        font-size: var(--text-xl);
+        font-size: var(--text-4xl);
     }
 
     .hero-stats {
@@ -1968,12 +2022,9 @@ body {
         min-height: 90vh;
     }
 
-    .title-main {
-        font-size: var(--text-3xl);
-    }
-
+    .title-main,
     .title-tagline {
-        font-size: var(--text-lg);
+        font-size: var(--text-3xl);
     }
 
     .hero-description {
@@ -2063,12 +2114,9 @@ body {
         padding-top: 60px;
     }
 
-    .title-main {
-        font-size: var(--text-2xl);
-    }
-
+    .title-main,
     .title-tagline {
-        font-size: var(--text-base);
+        font-size: var(--text-2xl);
     }
 
     .hero-stats {
